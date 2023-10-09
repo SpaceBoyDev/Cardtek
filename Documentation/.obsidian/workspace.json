@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2fdc7055967b9308",
+        "id": "39f0d4dd8e5006a2",
         "type": "tabs",
         "children": [
           {
-            "id": "f0297605698e5c46",
+            "id": "fe5e85cb9592db86",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "01_DESIGN/Brainstorming.canvas",
-                "viewState": {
-                  "x": 276.2077830424666,
-                  "y": 131.7807223081619,
-                  "zoom": -1.6666666666666665
-                }
-              }
+              "type": "FANTASY_CALENDAR",
+              "state": {}
             }
           }
         ]
@@ -88,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_DESIGN/Brainstorming.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_DESIGN/Brainstorming.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,17 +118,31 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01_DESIGN/Brainstorming.canvas"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "54f5caec0a68b043",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "491c4f9c51e68a16",
+            "type": "leaf",
+            "state": {
+              "type": "FANTASY_CALENDAR",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,11 +151,19 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "f0297605698e5c46",
+  "active": "036286072cab6bd0",
   "lastOpenFiles": [
+    "Untitled.md",
+    "2023-W41.md",
+    "Produccion/1st Iteration Task.md",
+    "Untitled",
+    "Produccion",
+    "01_DESIGN/Untitled.md",
     "01_DESIGN/Brainstorming.canvas",
     "01_DESIGN"
   ]
