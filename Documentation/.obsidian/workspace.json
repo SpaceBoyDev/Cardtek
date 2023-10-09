@@ -8,11 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe5e85cb9592db86",
+            "id": "4407a53952299ab4",
             "type": "leaf",
             "state": {
-              "type": "FANTASY_CALENDAR",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "Produccion/1st Iteration Task.md"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Produccion/1st Iteration Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Produccion/1st Iteration Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Produccion/1st Iteration Task.md"
+              }
             }
           },
           {
@@ -156,7 +162,7 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "036286072cab6bd0",
+  "active": "4407a53952299ab4",
   "lastOpenFiles": [
     "Untitled.md",
     "2023-W41.md",
