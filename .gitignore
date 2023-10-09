@@ -70,3 +70,11 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Obsidian 
+
+Documentation/.obsidian/workspace.json*
+
+# Add below lines to exclude OS settings and caches
+Documentation/.trash/
+Documentation/.DS_Store
