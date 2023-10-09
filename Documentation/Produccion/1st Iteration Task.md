@@ -6,9 +6,9 @@ kanban-plugin: basic
 
 ## Sin Hacer
 
-- [ ] Setear Obsidian #Organizacion
-- [ ] Limpiar Proyecto #Organizacion
-- [ ] OneSheet #Diseño
+- [ ] Setear Obsidian #Organization
+- [ ] Limpiar Proyecto #Organization
+- [ ] OneSheet #Doc
 
 
 ## Haciendo
