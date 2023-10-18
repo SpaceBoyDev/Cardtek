@@ -9,6 +9,9 @@ kanban-plugin: basic
 - [ ] Setear Obsidian #Organization
 - [ ] Limpiar Proyecto #Organization
 - [ ] OneSheet #Doc
+- [ ] Map Generation (Rooms) #Programming
+- [ ] Card Art #Art
+- [ ] Card System #Programming
 
 
 ## Haciendo
