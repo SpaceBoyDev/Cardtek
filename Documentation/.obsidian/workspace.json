@@ -16,8 +16,24 @@
                 "file": "Produccion/1st Iteration Task.md"
               }
             }
+          },
+          {
+            "id": "a1aaf35d30f988ec",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "01_DESIGN/Brainstorming.canvas",
+                "viewState": {
+                  "x": 50,
+                  "y": 0,
+                  "zoom": -1.9033239805883262
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Produccion/1st Iteration Task.md",
+                "file": "01_DESIGN/Brainstorming.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Produccion/1st Iteration Task.md",
+                "file": "01_DESIGN/Brainstorming.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Produccion/1st Iteration Task.md"
+                "file": "01_DESIGN/Brainstorming.canvas"
               }
             }
           },
@@ -162,7 +178,7 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "4407a53952299ab4",
+  "active": "a1aaf35d30f988ec",
   "lastOpenFiles": [
     "00_ABOUT/GENERAL GAME INFO.md",
     "00_ABOUT",

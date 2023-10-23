@@ -43,6 +43,14 @@ public class ProceduralGenerationAlgorithim : MonoBehaviour
         return corridor;
     }
 
+    public static List<BoundsInt> BinarySpacePartitioning(BoundsInt spaceToSplit,int minWidth,int midHeight)
+    {
+        
+        List<BoundsInt> roomsList = new List<BoundsInt>();
+    
+        return roomsList;
+    }
+
 }
 
 public static class Direction2D
