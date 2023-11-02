@@ -448,6 +448,8 @@
 "Assets/_Data/Scripts/DungeonGenerator/AbstractarDungeonGenerator.cs"
 "Assets/_Data/Scripts/DungeonGenerator/CorridorFirstDungeonGenerator.cs"
 "Assets/_Data/Scripts/DungeonGenerator/ProceduralGenerationAlgorithim.cs"
+"Assets/_Data/Scripts/DungeonGenerator/RoomFirstDungeonGenerator.cs"
+"Assets/_Data/Scripts/DungeonGenerator/Rooms.cs"
 "Assets/_Data/Scripts/DungeonGenerator/SimpleRandomWalkDungeonGenerator.cs"
 "Assets/_Data/Scripts/DungeonGenerator/TilemapVisualizer.cs"
 "Assets/_Data/Scripts/DungeonGenerator/WallGenerator.cs"

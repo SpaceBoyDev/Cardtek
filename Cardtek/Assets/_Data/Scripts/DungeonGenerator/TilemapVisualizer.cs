@@ -17,6 +17,13 @@ public class TilemapVisualizer : MonoBehaviour
        
     }
     
+    public void PaintRooms(IEnumerable<Vector2Int> floorPositions)
+    {
+        
+        PaintTiles(floorPositions,floorTilemap,floorTile);
+       
+    }
+    
     public void PaintSingleBasicWall(Vector2Int position)
     {
         PaintSingleTile(wallTilemap, wallTop, position);

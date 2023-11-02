@@ -58,16 +58,33 @@ public class ProceduralGenerationAlgorithim : MonoBehaviour
                 {
                     if(room.size.y >= minHeight * 2)
                     {
-                        SplitHorizontally(minWidth, minHeight, roomsQueue, room);
+                        SplitHorizontally( minHeight, roomsQueue, room);
                         
                     }else if(room.size.x >= minWidth * 2)
                     {
-                        SplitVertically(minWidth, minHeight, roomsQueue, room);
+                        SplitVertically(minWidth, roomsQueue, room);
+                        
+                    }else if (room.size.x >= minWidth && room.size.y >= minHeight)
+                    {
+                        roomsList.Add(room);
                     }
                 }
                 else
                 {
-                    
+                    if(room.size.x >= minWidth * 2)
+                    {
+                        SplitVertically(minWidth, roomsQueue, room);
+                        
+                    }
+                    else if(room.size.y >= minHeight * 2)
+                    {
+                        SplitHorizontally( minHeight, roomsQueue, room);
+                        
+                    }
+                    else if (room.size.x >= minWidth && room.size.y >= minHeight)
+                    {
+                        roomsList.Add(room);
+                    }
                 }
                 
             }
@@ -76,14 +93,24 @@ public class ProceduralGenerationAlgorithim : MonoBehaviour
         return roomsList;
     }
 
-    private static void SplitVertically(int minWidth, int minHeight, Queue<BoundsInt> roomsQueue, BoundsInt room)
+    private static void SplitVertically(int minWidth, Queue<BoundsInt> roomsQueue, BoundsInt room)
     {
-        throw new System.NotImplementedException();
+        int XSplit = Random.Range(1, room.size.x);
+        BoundsInt room1 = new BoundsInt(room.min, new Vector3Int(XSplit, room.size.y, room.size.z));
+        BoundsInt room2 = new BoundsInt(new Vector3Int(room.min.x+XSplit, room.min.y, room.min.z),new Vector3Int(room.size.x - XSplit, room.size.y, room.size.z));
+        
+        roomsQueue.Enqueue(room1);
+        roomsQueue.Enqueue(room2);
     }
 
-    private static void SplitHorizontally(int minWidth, int minHeight, Queue<BoundsInt> roomsQueue, BoundsInt room)
+    private static void SplitHorizontally( int minHeight, Queue<BoundsInt> roomsQueue, BoundsInt room)
     {
-        throw new System.NotImplementedException();
+        int YSplit = Random.Range(1, room.size.y);
+        BoundsInt room1 = new BoundsInt(room.min, new Vector3Int(room.size.x, YSplit, room.size.z));
+        BoundsInt room2 = new BoundsInt(new Vector3Int(room.min.x, room.min.y+YSplit, room.min.z),new Vector3Int(room.size.x, room.size.y-YSplit, room.size.z));
+        
+        roomsQueue.Enqueue(room1);
+        roomsQueue.Enqueue(room2);
     }
 }
 
