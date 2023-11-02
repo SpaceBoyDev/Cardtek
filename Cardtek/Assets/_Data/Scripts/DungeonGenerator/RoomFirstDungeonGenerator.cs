@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
 {
@@ -84,6 +85,8 @@ public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
 
             // print("Original"+roomList[i].size);
             // print("Center"+roomBounds.size);
+
+            Vector3Int offsetOG = searchFirstTile(tilemap);
             
             foreach (Vector3Int c in roomBounds.allPositionsWithin)
             {
@@ -92,8 +95,9 @@ public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
                     //Add it to the List if the local pos exist in the Tile map
                     if (tilemap.HasTile(c))
                     {
-                        
-                        floor.Add(new Vector2Int(roomCenters[i].x-c.x ,roomCenters[i].y-c.x));
+                        Vector3Int tile = c-offsetOG;
+                        print("X->"+offsetOG.x+" Y->"+offsetOG.y);
+                        floor.Add(new Vector2Int(tile.x+roomCenters[i].x ,tile.y+roomCenters[i].y));
             
                     }
 
@@ -105,6 +109,36 @@ public class RoomFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
      
         
         return floor;
+    }
+
+    private Vector3Int searchFirstTile(Tilemap floorTilemap)
+    {
+        BoundsInt bounds = floorTilemap.cellBounds;
+        TileBase[] allTiles = floorTilemap.GetTilesBlock(bounds);
+        Vector3Int firstTilepos = new Vector3Int();
+        int count = 0;
+        for (int x = 0; x < bounds.size.x; x++)
+        {
+            for (int y = 0; y < bounds.size.y; y++)
+            {
+                TileBase tile = allTiles[x + y * bounds.size.x];
+                if (tile != null)
+                {
+                    firstTilepos = new Vector3Int(x, y, 0);
+                    return firstTilepos;
+                    //
+                    // Debug.Log("x:" + x + " y:" + y + " tile:" + tile.name + " NUM:" + count);
+                    // count++;
+                }
+                else
+                {
+                    // Debug.Log("x:" + x + " y:" + y + " tile: (null)");
+                }
+            }
+
+            
+        }
+        return firstTilepos;
     }
 
     private HashSet<Vector2Int> CreateRandomRooms(List<BoundsInt> roomList)
