@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"group","id":"843500aa98052ae7","x":-160,"y":-570,"width":1220,"height":1140,"color":"5","label":"CARDS"},
+		{"type":"text","text":"## General\n\n- #### Hay una tienda con un pitonisio que te permita descartar cartas o ver las siguientes...","id":"e8e40ba4fe6302ab","x":-120,"y":-490,"width":460,"height":223},
+		{"type":"text","text":"## Pasivas\n\n- #### Las pasivas duran una habitación\n\n- #### Al derrotar un boss puedes elegir una pasiva de tu mazo que sea permanente para el resto de la run.\n\n- #### Hay una tienda con un pitonisio que te permita descartar cartas o ver las siguientes...","id":"ac1f8548bf6f0001","x":400,"y":-490,"width":480,"height":320},
+		{"type":"text","text":"# MAIN MECHANICS","id":"b815a81ec77e974f","x":-560,"y":-42,"width":240,"height":82,"color":"2"},
+		{"type":"text","text":"# BASE #\n\n- ### Roguelite \n- ### Deckbuilding","id":"b027f581affef736","x":-960,"y":-86,"width":254,"height":170,"color":"4"}
+	],
+	"edges":[
+		{"id":"5daac358d2cbf0e9","fromNode":"b815a81ec77e974f","fromSide":"right","toNode":"843500aa98052ae7","toSide":"left"},
+		{"id":"6e4f6808d46a9184","fromNode":"b027f581affef736","fromSide":"right","toNode":"b815a81ec77e974f","toSide":"left"}
+	]
+}
