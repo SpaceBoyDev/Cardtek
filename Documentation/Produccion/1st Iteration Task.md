@@ -7,7 +7,7 @@ kanban-plugin: basic
 ## Sin Hacer
 
 - [ ] Setear Obsidian #Organization
-- [ ] Limpiar Proyecto #Organization
+- [ ] [[Limpiar Proyecto #Organization]]
 - [ ] OneSheet #Doc
 - [ ] Map Generation (Rooms) #Programming
 - [ ] Card Art #Art

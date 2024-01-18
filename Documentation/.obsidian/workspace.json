@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "39f0d4dd8e5006a2",
+        "id": "389faee8ca21c565",
         "type": "tabs",
         "children": [
           {
-            "id": "4407a53952299ab4",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Produccion/1st Iteration Task.md"
-              }
-            }
-          },
-          {
-            "id": "a1aaf35d30f988ec",
+            "id": "9e9b750f4ba40b66",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -27,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Produccion/1st Iteration Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Produccion/1st Iteration Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Produccion/1st Iteration Task.md"
+                "file": "Task.md"
               }
             }
           },
@@ -173,14 +160,17 @@
       "fantasy-calendar:Open Large Fantasy Calendar": false
     }
   },
-  "active": "a1aaf35d30f988ec",
+  "active": "036286072cab6bd0",
   "lastOpenFiles": [
-    "01_DESIGN/Brainstorming.canvas",
-    "00_ABOUT/GENERAL GAME INFO.md",
-    "00_ABOUT",
-    "Untitled.md",
-    "2023-W41.md",
     "Produccion/1st Iteration Task.md",
+    "Task.md",
+    "Limpiar Proyecto.md",
+    "Limpiar Proyecto #Organization.md",
+    "Untitled.canvas",
+    "00_ABOUT/GENERAL GAME INFO.md",
+    "01_DESIGN/Brainstorming.canvas",
+    "00_ABOUT",
+    "2023-W41.md",
     "Untitled",
     "Produccion",
     "01_DESIGN/Untitled.md",
